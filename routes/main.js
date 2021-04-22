@@ -13,6 +13,7 @@ router.get('/', (req, res) => {
 	res.render('index', {title: title}) // renders views/index.handlebars
 });
 
+// hi
 // Login User
 
 router.get('/showLogin', (req, res) => {
