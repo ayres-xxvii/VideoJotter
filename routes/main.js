@@ -7,7 +7,7 @@ const { validationResult } = require('express-validator');
 const urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 
-// sex is bad
+// sex
 router.get('/', (req, res) => {
 	const title = 'Video Jotter';
 	res.render('index', {title: title}) // renders views/index.handlebars
